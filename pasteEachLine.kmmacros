@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>505332754.951217</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>StyledText</key>
+						<data>
+						cnRmZAAAAAADAAAAAgAAAAcAAABU
+						WFQucnRmAQAAAC5CAwAAKwAAAAEA
+						AAA6AwAAe1xydGYxXGFuc2lcYW5z
+						aWNwZzkzMlxjb2NvYXJ0ZjE1MDRc
+						Y29jb2FzdWJydGY4MzAKe1xmb250
+						dGJsXGYwXGZuaWxcZmNoYXJzZXQx
+						MjggLkhpcmFLYWt1SW50ZXJmYWNl
+						LVczO30Ke1xjb2xvcnRibDtccmVk
+						MjU1XGdyZWVuMjU1XGJsdWUyNTU7
+						XHJlZDBcZ3JlZW4wXGJsdWUwO30K
+						e1wqXGV4cGFuZGVkY29sb3J0Ymw7
+						O1xjc2dyYXlcYzA7fQpccGFyZFx0
+						eDU2MFx0eDExMjBcdHgxNjgwXHR4
+						MjI0MFx0eDI4MDBcdHgzMzYwXHR4
+						MzkyMFx0eDQ0ODBcdHg1MDQwXHR4
+						NTYwMFx0eDYxNjBcdHg2NzIwXHBh
+						cmRpcm5hdHVyYWxccGFydGlnaHRl
+						bmZhY3RvcjAKClxmMFxmczI2IFxB
+						cHBsZVR5cGVTZXJ2aWNlc1xBcHBs
+						ZVR5cGVTZXJ2aWNlc0YxNDQxODAw
+						IFxjZjIgXCc4M1wnNGVcJzgzXCc4
+						YVwnODNcJzYyXCc4M1wnNzZcJzgz
+						XCc3YlwnODFcJzViXCc4M1wnNjhc
+						JzkwXCdlNlwnOTNcJ2FhXCc4Mlwn
+						Y2NcJzk1XCdhMVwnOTBcJzk0XCc4
+						ZFwnNzNcJzgzXCc2NVwnODNcJzRj
+						XCc4M1wnNThcJzgzXCc2N1wnODJc
+						J2YwXCc4MVwnNDFob3Qga2V5XCc4
+						OVwnOWZcJzgyXCdiN1wnODJcJ2Iy
+						XCc4MlwnYzZcJzgyXCdjOTFcJzhk
+						XCc3M1wnODJcJ2I4XCc4MlwnYzJc
+						JzgzXCc3OVwnODFcJzViXCc4M1wn
+						NThcJzgzXCc2N1wnODFcJzQyXApc
+						JzhiXCdmM1wnOTRcJzkyXCc4ZFwn
+						NzNcJzgyXCdjZFwnODNcJzU4XCc4
+						M1wnNGNcJzgzXCc2MlwnODNcJzc2
+						XCc4MVwnNDJcJzhkXCdjNVwnOGZc
+						JzQ5XCc4ZFwnNzNcJzgzXCc3OVwn
+						ODFcJzViXCc4M1wnNThcJzgzXCc2
+						N1wnODJcJ2NjXCc4ZFwnZGJcJzgy
+						XCdjOWFsZXJ0XCc5NVwnNWNcJzhl
+						XCdhNlwnODFcJzQyfQEAAAAjAAAA
+						AQAAAAcAAABUWFQucnRmEAAAAOfl
+						z1m2AQAAAAAAAAAAAAA=
+						</data>
+						<key>Title</key>
+						<string>read me</string>
+					</dict>
+					<dict>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>CopyClipboard</string>
+						<key>TargetNamedClipboardRedundantDisplayName</key>
+						<string>CB_spritLines</string>
+						<key>TargetNamedClipboardUID</key>
+						<string>45FC6D82-2EB8-439F-A7D9-2FF9B5EB5D1E</string>
+						<key>TargetUseNamedClipboard</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>DisplayKind</key>
+						<string>Clipboard</string>
+						<key>IncludeStdErr</key>
+						<false/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>ExecuteAppleScript</string>
+						<key>NotifyOnFailure</key>
+						<false/>
+						<key>Path</key>
+						<string></string>
+						<key>StopOnFailure</key>
+						<false/>
+						<key>Text</key>
+						<string>set theMulchLineTxt to get the clipboard as text
+set theTextList to every paragraph of theMulchLineTxt
+set targetTxt to item 1 of theTextList
+
+if targetTxt = "" then
+	set theTextList to rest of theTextList
+	set targetTxt to item 1 of theTextList
+end if
+
+return targetTxt</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>Paste</string>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>CutCopyPaste</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>JustDisplay</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>SetClipboardToText</string>
+						<key>Text</key>
+						<string>%NamedClipboard%CB_spritLines%</string>
+					</dict>
+					<dict>
+						<key>DisplayKind</key>
+						<string>Clipboard</string>
+						<key>IncludeStdErr</key>
+						<false/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>ExecuteAppleScript</string>
+						<key>NotifyOnFailure</key>
+						<false/>
+						<key>Path</key>
+						<string></string>
+						<key>StopOnFailure</key>
+						<false/>
+						<key>Text</key>
+						<string>set theMulchLineTxt to get the clipboard as textset theTextList to every paragraph of theMulchLineTxtset theTextList to rest of theTextList
+
+set defaultDelimit to AppleScript's text item delimiters
+set AppleScript's text item delimiters to ASCII character (13)
+set theTextList to theTextList as text
+set AppleScript's text item delimiters to defaultDelimit
+
+set cn to the length of theTextList
+
+if cn = 0 then	display dialog "終わり"end if
+return theTextList</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>506712999.43727303</real>
+				<key>IsActive</key>
+				<false/>
+				<key>ModificationDate</key>
+				<real>528489876.07349098</real>
+				<key>Name</key>
+				<string>クリップボードから1行ずつペースト</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>112AB995-5FC7-4294-91E2-7B33F90BF6D9</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Clipboards</string>
+		<key>ToggleMacroUID</key>
+		<string>30535611-2733-4F74-BA5C-822BEDFE4001</string>
+		<key>UID</key>
+		<string>E2450269-F6AF-4586-B315-B5DDDC46A570</string>
+	</dict>
+</array>
+</plist>
